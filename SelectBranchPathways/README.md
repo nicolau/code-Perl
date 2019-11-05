@@ -14,5 +14,6 @@ wget https://raw.githubusercontent.com/nicolau/code-Perl/master/SelectBranchPath
 
 ## How to execute script
 ```
+# R-HSA-168256 - Reactome code for Immune System geneset
 perl select_pathways.pl --gmt-file ReactomePathways.gmt --relation ReactomePathwaysRelation.txt --search-code "R-HSA-168256" | sort | uniq > ReactomePathwaysOnlyImmuneResponseBranch.gmt
 ```
