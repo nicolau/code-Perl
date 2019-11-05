@@ -6,4 +6,4 @@ Download the SelectedBranchPathways
 
 Execute:
 cd SelectBranchPathways
-perl select_pathways.pl --gmt-file ReactomePathways.gmt --relation ReactomePathwaysRelation.txt --search-code "R-HSA-168256" | awk -F'\t' '{print $1, "\t", $2}' | sort | uniq > ReactomePathwaysOnlyImmuneResponseBranch.gmt
+perl select_pathways.pl --gmt-file ReactomePathways.gmt --relation ReactomePathwaysRelation.txt --search-code "R-HSA-168256" | sort | uniq > ReactomePathwaysOnlyImmuneResponseBranch.gmt
