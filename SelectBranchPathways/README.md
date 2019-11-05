@@ -1,4 +1,5 @@
-# select_pathway.pl is a script to select a specific branch from reactome pathways gmt file. This script is useful if you need to do the enrichment pathway analysis for Immune System pathways for example.
+# Script to select pathways belong to specific branch
+select_pathway.pl is a script to select a specific branch from reactome pathways gmt file. This script is useful if you need to do the enrichment pathway analysis for Immune System pathways for example.
 
 ## The command for analysis is:
 
